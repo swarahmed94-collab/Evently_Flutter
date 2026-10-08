@@ -1,0 +1,11 @@
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  errors:
+    invalid_assignment: error
+    missing_required_argument: error
+  exclude:
+    - build/**
+    - ios/**
+linter:
+  rules:
+    prefer_const_constructors: true

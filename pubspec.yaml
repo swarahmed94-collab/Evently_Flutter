@@ -1,0 +1,35 @@
+name: evently
+version: 1.0.0+1
+description: Evently event management application
+publish_to: none
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+  flutter: '>=3.35.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.0
+  cloud_firestore: ^6.0.0
+  flutter_svg: ^2.2.0
+  google_fonts: ^6.3.0
+  google_sign_in: ^6.3.0
+  shared_preferences: ^2.5.3
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/onboarding/
+    - assets/images/branding/
+    - assets/images/
+    - assets/icons/
+    - assets/event_art/

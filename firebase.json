@@ -1,0 +1,1 @@
+{"firestore":{"rules":"firestore.rules"},"flutter":{"platforms":{"ios":{"default":{"projectId":"evently-ec90d","appId":"1:8389331409:ios:40e7b6a4ac2c82cb50b8f0","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"evently-ec90d","configurations":{"ios":"1:8389331409:ios:40e7b6a4ac2c82cb50b8f0"}}}}}}
